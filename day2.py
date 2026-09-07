@@ -45,3 +45,16 @@ score = 95
 print(f"Student: {name}, Score: {score}")
 print(f"Next year age: {19 + 2}")
 print(f"Price: ${19.99:}")
+
+username = input("What is your username? ")
+print(username)
+print ("You username:" + username)
+print(f"You must be {age} years old")
+print(f"You will be {age + 2} years old after 2 years")
+
+print(f"You will be {int(age) + 2} years old after 2 years")
+
+print(int("10"))
+print(float("3.14"))
+print(str(100))
+
