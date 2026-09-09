@@ -5,6 +5,8 @@ fruits = ["raspberry","strawberry","blueberry"]
 for fruit in fruits:
     print(fruit)
 
+    
+
 for i in range(5):
     print(i)
 
@@ -35,3 +37,10 @@ for n in range(10):
     else:
         print(f"Odd:{n}" )
         #print("Odd:" + str (n))
+
+for row in range(3):
+    for col in range(3):
+        print(f"({row},{col})", end=" ")
+    print()
+
+
